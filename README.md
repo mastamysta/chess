@@ -16,7 +16,7 @@
 <br>
 <h2>Reflection</h2>
 <p>
-  The game does have some bugs where invalid moves are flagged up as vali an vice-versa. The time-cost of hunting own each bug in the validation methods didn't seem worth the benefit of a more functional chess clone.
+  The game does have some bugs where invalid moves are flagged up as valid and vice-versa. The time-cost of hunting down each bug in the validation methods didn't seem worth the benefit of a more functional chess clone.
   
   Despite this I got significant benefit from using the 'assert' library. Figuring out a good specification for each function and writing a test function using assertions BEFORE writing any code for the function itself proved an excellent way to spot mistakes and solidify a plan as I went.
   
